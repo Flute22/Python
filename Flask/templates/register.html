@@ -8,7 +8,11 @@
 <body>
     <h1>NLP App</h1>
 
-    <h3>Loin Here</h3>
+    <h3>Register Here</h3>
+
+    {% if message %}
+        <p style="color: rgb(221, 96, 96)">{{ message }}</p>
+    {% endif %}
 
     <form action="/register-data" method="post">
         <label for="">Name</label><br>

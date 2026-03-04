@@ -10,11 +10,15 @@
 
     <h3>Loin Here</h3>
 
-    <form action="">
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+    
+    <form action="/perform-login" method="post">
         <label for="">Email</label><br>
-        <input type="email"><br>
+        <input type="email" name="email"><br>
         <label for="">Password</label>
-        <input type="password"><br><br>
+        <input type="password" name="password"><br><br>
 
         <input type="submit" value="Login">
     </form>
