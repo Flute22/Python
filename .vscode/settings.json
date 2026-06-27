@@ -8,6 +8,7 @@
     "chipo",
     "crosstab",
     "cust",
+    "figsize",
     "fjob",
     "flavanoids",
     "histplot",
@@ -15,12 +16,17 @@
     "inhand",
     "itemsize",
     "Kolkata",
+    "linestyle",
     "malic",
     "mjob",
     "nthmax",
     "pokedex",
     "proanthocyanins",
+    "skyblue",
     "subcat",
-    "windspeed"
+    "windspeed",
+    "xlabel",
+    "xticks",
+    "ylabel"
   ]
 }
